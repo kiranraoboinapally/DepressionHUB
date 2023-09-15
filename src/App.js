@@ -1,11 +1,21 @@
 import React from 'react';
-
 import { Footer , Blog ,Possible,Features,whatDepressionHUB,Header} from './containers';
-import {Article,Brand,CTA,Feature,Navbar,} from './components';
-
+import { CTA,Article,Brand,Feature,Navbar} from './components';
 const App = () => {
   return (
-    <div>DepressionHUB</div>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <whatDepressionHUB />
+      <Features />
+      <Possible />
+      <CTA />
+      <Blog />
+      <Footer />
+    </div>
   )
 }
 
