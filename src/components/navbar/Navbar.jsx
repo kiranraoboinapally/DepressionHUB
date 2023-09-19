@@ -12,16 +12,12 @@ const Navbar = () => {
           <img  src={DepressionHUB} alt="DepressionHUB" />
           </div>
          <div className="dhubb__navbar-links_containers">
-         <div className="dhubb__navbar-menu_containers"> 
-         <div className="dhubb__navbar-sign">
-         <p><a href="#Blog">Blog</a></p>
+       
+    <p><a href="#Blog">Blog</a></p>
          <p><a href="#Possible">Lang</a></p>
          <p><a href="#Features">Login</a></p>
-
          </div>
          </div>
-         </div>
-    </div>
     </div>
   )
 }
