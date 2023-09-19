@@ -12,11 +12,12 @@ const Navbar = () => {
           <img  src={DepressionHUB} alt="DepressionHUB" />
           </div>
          <div className="dhubb__navbar-links_containers">
-       
-    <p><a href="#Blog">Blog</a></p>
+          <p><a href="#Blog">Blog</a></p>
          <p><a href="#Possible">Lang</a></p>
-         <p><a href="#Features">Login</a></p>
+         <p><a href="#Features">Talk to Therapist</a></p>
          </div>
+         <div className="dhubb__navbar-sign">
+          <button type="button">Login</button></div>
          </div>
     </div>
   )

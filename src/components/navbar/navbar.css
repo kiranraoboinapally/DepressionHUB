@@ -34,7 +34,8 @@
     align-items:center;
 }
 
-.dhubb__navbar-links_containers p {
+.dhubb__navbar-links_containers p
+{
     width: 40px;
     height: 27px;
     font-family: 'Poppins';
@@ -47,4 +48,22 @@
     margin:0 1rem;
     cursor: pointer;
     margin-right:0 1rem;
+}
+
+.dhubb__navbar-sign button {
+    width: 85px;
+    height: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    text-transform: capitalize;
+
+    border-radius: 18px;
+background: rgba(0, 178, 255, 0.60);
+mix-blend-mode: darken;
+    
+
 }
