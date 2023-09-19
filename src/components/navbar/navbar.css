@@ -1,0 +1,53 @@
+.dhubb__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 20rem;
+}
+
+.dhubb__navbar-links {
+    flex:1;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.dhubb__navbar-links_logo {
+    margin-right:2rem;
+
+}
+.dhubb__navbar-links_logo img {
+    width:258px;
+    height:33px;
+    
+
+}
+
+.dhubb__navbar-links-containers {
+    display: flex;
+    flex-direction:row;
+
+}
+.dhubb__navbar-sign {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.dhubb__navbar-links-containers p,
+.dhubb__navbar-sign p,
+.dhubb__navbar-menu_container p, {
+
+position: absolute;
+width: 40px;
+height: 27px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+
+
+
+}
