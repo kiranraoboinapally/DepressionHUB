@@ -22,20 +22,11 @@
     
 
 }
-
 .dhubb__navbar-links_containers {
     display: flex;
     flex-direction:row;
-
 }
-.dhubb__navbar-sign {
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
-}
-
-.dhubb__navbar-links_containers p
-{
+.dhubb__navbar-links_containers p{ 
     width: 40px;
     height: 27px;
     font-family: 'Poppins';
@@ -59,11 +50,10 @@
     font-size: 18px;
     line-height: 27px;
     color: #000000;
-    text-transform: capitalize;
-
     border-radius: 18px;
-background: rgba(0, 178, 255, 0.60);
-mix-blend-mode: darken;
-    
-
+    background: rgba(0, 178, 255, 0.60);
+    mix-blend-mode: darken;
+    border:0.0000125;
+    outline: none;
+    cursor: pointer;
 }
